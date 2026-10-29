@@ -1,28 +1,28 @@
 House Price Prediction
 
-Machine Learning Internship Task 2 – Prodigy InfoTech
+Machine Learning Internship Task 2 - Prodigy InfoTech
 
-Project Overview
+About the Project
 
-This project focuses on predicting house prices using Python and Machine Learning techniques. A Linear Regression model is trained on housing data to estimate house values based on different features.
+In this project, I used Python and Machine Learning to predict house prices. I used the California Housing dataset and trained a Linear Regression model to predict house values based on different features.
 
 Dataset
 
-The project uses the California Housing Dataset, which contains information about housing areas.
+The dataset contains information about houses and their surrounding areas.
 
-The dataset includes the following features:
+Some of the features used are:
 
-- MedInc – Median income
-- HouseAge – Average house age
-- AveRooms – Average number of rooms
-- AveBedrms – Average number of bedrooms
-- Population – Population of the area
-- AveOccup – Average household occupancy
-- Latitude – Geographical latitude
-- Longitude – Geographical longitude
-- MedHouseVal – Median house value (target variable)
+- Median Income
+- House Age
+- Average Rooms
+- Average Bedrooms
+- Population
+- Average Occupancy
+- Latitude and Longitude
 
-Technologies Used
+The target column is "MedHouseVal".
+
+Libraries Used
 
 - Python
 - Pandas
@@ -31,52 +31,38 @@ Technologies Used
 - Seaborn
 - Scikit-learn
 
-Project Workflow
+Steps Performed
 
-1. Loaded and explored the dataset.
-2. Checked dataset information and missing values.
-3. Performed data preprocessing.
-4. Visualized housing data using graphs.
-5. Split the dataset into training and testing sets.
-6. Trained a Linear Regression model.
-7. Evaluated the model using performance metrics.
-8. Compared actual and predicted house values.
-9. Visualized prediction errors and feature coefficients.
+1. Loaded the dataset and checked its information.
+2. Checked for missing values.
+3. Created graphs to understand the data.
+4. Divided the data into training and testing sets.
+5. Trained a Linear Regression model.
+6. Checked the model's performance.
+7. Compared actual and predicted house values using graphs.
 
-Model Used
+Model Results
 
-Linear Regression
+- Model used: Linear Regression
+- Training data: 16,512 samples
+- Testing data: 4,128 samples
+- MAE: 0.5332
+- R² Score: 0.5758
 
-Linear Regression is a supervised machine learning algorithm used to predict continuous values. In this project, it is used to estimate house values based on the available housing features.
+The model gives an estimate of house values. I also created graphs to compare the actual prices with the predicted prices.
 
-Results
-
-- Training samples: 16,512
-- Testing samples: 4,128
-- Mean Absolute Error (MAE): 0.5332
-- R-squared Score (R²): 0.5758
-
-The model was evaluated by comparing actual house values with predicted values. The results and visualizations help demonstrate how well the model estimates housing prices.
-
-Note: The target values are measured in units of $100,000.
+Note: House values in this dataset are measured in units of $100,000.
 
 Files
 
-- "House_Price_Prediction.ipynb" – Jupyter Notebook containing the project code, analysis, model training, evaluation, and visualizations.
+- "House_Price_Prediction.ipynb" – Contains the Python code and project outputs.
 
 How to Run
 
-1. Open the notebook in Google Colab or Jupyter Notebook.
-2. Run the cells in order.
-3. Make sure the required Python libraries are installed.
-4. Review the output graphs and model evaluation results.
-
-Install the required libraries using:
-
-pip install pandas numpy matplotlib seaborn scikit-learn
+1. Download the notebook from this repository.
+2. Open it in Google Colab.
+3. Run the cells one by one.
 
 Conclusion
 
-This project demonstrates the use of Linear Regression for house price prediction. It covers data exploration, preprocessing, visualization, model training, and evaluation using Python and machine learning libraries.
-
-The project helped develop practical understanding of the machine learning workflow and regression techniques.
+Through this project, I learned how to use Linear Regression for house price prediction. I also got practical experience with data analysis, visualization, and model evaluation using Python.
